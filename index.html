@@ -25,7 +25,7 @@
       h3 {
         font-size: 32px;
         font-weight: 800;
-        margin: 0px 0px 16px;
+        margin: 0px 0px 12px;
       }
       h4 {
         font-size: 20px;
@@ -34,10 +34,18 @@
       }
       span {
         font-size: 16px;
+        margin-bottom: 2px;
       }
       p {
         font-size: 18px;
         margin: 0px 0px 16px;
+      }
+      ul {
+        padding-left: 32px;
+      }
+      li {
+        margin-bottom: 4px;
+        font-size: 18px;
       }
       .mb24 {
         margin-bottom: 24px;
@@ -76,7 +84,7 @@
         padding: 0;
       }
       .proj {
-        margin-bottom: 16px;
+        padding-bottom: 24px;
       }
       .other {
         padding: 48px 0px;
@@ -86,8 +94,12 @@
   </head>
   <body>
     <div class="main-container">
-      <h1>안녕하세요! 어제보다 성장한 내가 되고 싶은 윤석민입니다.</h1>
-      <div class="main-description">어쩌구 저쩌구 내용 정리해서 쓰기</div>
+      <h1>안녕하세요! <br />저는 윤석민입니다.</h1>
+      <div class="main-description">
+        어제보다 더 나은 내가 되고 싶은 윤석민입니다. 새로운 것을 시도하고
+        경험을 통해 배운 것을 활용하고 성장하면서 일하는 보람과 즐거움을
+        얻습니다.
+      </div>
       <div class="exp">
         <h2>Experience</h2>
         <div class="exp-row">
@@ -99,24 +111,53 @@
           <div class="exp-column-right">
             <div class="proj">
               <div class="mb24">
-                <h3>{Worked0}</h3>
-                <span>{worked0-date0}</span>
+                <h3>Sendy</h3>
+                <span>21.04 ~ 22.10</span>
               </div>
               <div>
                 <h4>Description</h4>
-                <p>{worked0-desc0}</p>
+                <p>Sendy의 간단한 설명 + 내가 했던 일 짧게</p>
               </div>
               <div>
                 <h4>What did i do</h4>
                 <ul>
-                  <li>{worked0-did0}</li>
-                  <li>{worked0-did1}</li>
-                  <li>{worked0-did2}</li>
+                  <li>Figma 마이그레이션</li>
+                  <li>Design System 설계</li>
+                  <li>Web / App 서비스 유지보수</li>
                 </ul>
               </div>
+            </div>
+            <div class="proj">
+              <div class="mb24">
+                <h3>Sendy v2</h3>
+                <span>22.01 ~ 22.10</span>
+              </div>
               <div>
-                <h4>Stack</h4>
-                <div>{worked0-stack0}</div>
+                <h4>Description</h4>
+                <p>Sendy의 간단한 설명 + 내가 했던 일 짧게</p>
+              </div>
+              <div>
+                <h4>What did i do</h4>
+                <ul>
+                  <li>Design System 설계</li>
+                  <li>Web / App UI / UX 설계 및 디자인</li>
+                </ul>
+              </div>
+            </div>
+            <div class="proj">
+              <div class="mb24">
+                <h3>Send Anywhere</h3>
+                <span>21.04 ~ 22.10</span>
+              </div>
+              <div>
+                <h4>Description</h4>
+                <p>샌애의 간단한 설명 + 내가 했던 일 짧게</p>
+              </div>
+              <div>
+                <h4>What did i do</h4>
+                <ul>
+                  <li>Web / App 서비스 유지보수</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -131,24 +172,21 @@
           <div class="exp-column-right">
             <div class="proj">
               <div class="mb24">
-                <h3>{Worked0}</h3>
-                <span>{worked0-date0}</span>
+                <h3>RuddyWood</h3>
+                <span>19.09 ~ 20.10</span>
               </div>
               <div>
                 <h4>Description</h4>
-                <p>{worked0-desc0}</p>
+                <p>짧은 소개 + 내가 한거 짧게</p>
               </div>
               <div>
                 <h4>What did i do</h4>
                 <ul>
-                  <li>{worked0-did0}</li>
-                  <li>{worked0-did1}</li>
-                  <li>{worked0-did2}</li>
+                  <li>RuddyWood 서비스 브랜딩</li>
+                  <li>Design System 설계</li>
+                  <li>RuddyWood for Customer 앱 디자인</li>
+                  <li>RuddyWood for Partner 앱 디자인</li>
                 </ul>
-              </div>
-              <div>
-                <h4>Stack</h4>
-                <div>{worked0-stack0}</div>
               </div>
             </div>
           </div>
@@ -162,24 +200,21 @@
           <div class="exp-column-right">
             <div class="proj">
               <div class="mb24">
-                <h3>{Worked0}</h3>
-                <span>{worked0-date0}</span>
+                <h3>누아 메트로</h3>
+                <span>19.01 ~ 19.09</span>
               </div>
               <div>
                 <h4>Description</h4>
-                <p>{worked0-desc0}</p>
+                <p>Fuck Metro</p>
               </div>
               <div>
                 <h4>What did i do</h4>
                 <ul>
-                  <li>{worked0-did0}</li>
-                  <li>{worked0-did1}</li>
-                  <li>{worked0-did2}</li>
+                  <li>서울특별시 지하철 노선도 디자인 및 퍼블리싱</li>
+                  <li>타이베이 지하철 노선도 디자인 및 퍼블리싱</li>
+                  <li>방콕 지하철 노선도 디자인 및 퍼블리싱</li>
+                  <li>오사카 지하철 노선도 디자인 및 퍼블리싱</li>
                 </ul>
-              </div>
-              <div>
-                <h4>Stack</h4>
-                <div>{worked0-stack0}</div>
               </div>
             </div>
           </div>
@@ -187,13 +222,13 @@
         <div>
           <h2>Other Experiences</h2>
           <div class="other">
-            <h3>{otherExperiences}</h3>
+            <h3>여기엔 뭘 적을까 사이드 프로젝트 ?</h3>
             <span>{role}</span>
             <span>{date}</span>
             <p>{descriptions}</p>
           </div>
           <div class="other">
-            <h3>{otherExperiences}</h3>
+            <h3>적어도 나쁘지 않을거 같긴한데, 대부분 디자인 프로젝트긴함</h3>
             <span>{role}</span>
             <span>{date}</span>
             <p>{descriptions}</p>
@@ -223,6 +258,27 @@
                 상대방의 기분을 상하지 않게, 원하는 메세지가 잘 전달될 수 있게
                 말할 수 있도록 노력합니다.
               </li>
+            </ul>
+          </div>
+          <div class="other">
+            <h3>Web</h3>
+            <ul>
+              <li>여기엔 뭘 적어야 할까?</li>
+              <li>내가 웹은 잘 모르는뎅</li>
+            </ul>
+          </div>
+          <div class="other">
+            <h3>React</h3>
+            <ul>
+              <li>여기엔 뭘 적어야 할까?</li>
+              <li>내가 웹은 잘 모르는뎅</li>
+            </ul>
+          </div>
+          <div class="other">
+            <h3>Javascript</h3>
+            <ul>
+              <li>여기엔 뭘 적어야 할까?</li>
+              <li>내가 웹은 잘 모르는뎅</li>
             </ul>
           </div>
           <div class="other">
